@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Paso - hamburguesas, tortas, jugos y licuados">
+  <title>El Paso | Sabor que se disfruta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="inicio">
+  <nav class="nav container">
+    <a class="logo" href="#inicio"><span>EL</span> PASO</a>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    <div class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#especialidades">Especialidades</a>
+      <a href="#menu">Menú</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <a class="nav-order" href="#menu">Ver menú</a>
+  </nav>
+</header>
+
+<main>
+<!-- HERO / INICIO -->
+<section class="hero" style="background-image: url('imagenes/WhatsApp Image 2026-10-27 at 7.16.25 PM.jpeg');">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">SABOR • CALIDAD • MOMENTOS</p>
+    <h1>El sabor que<br><span>siempre quieres repetir.</span></h1>
+    <p class="hero-text">Hamburguesas, tortas, jugos y licuados preparados al momento para disfrutar con quienes más quieres.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="#menu">Explorar menú</a>
+      <a class="btn btn-light" href="#contacto">Contáctanos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ESTADÍSTICAS -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong>100%</strong><span>Preparado al momento</span></div>
+    <div><strong>4+</strong><span>Especialidades</span></div>
+    <div><strong>★★★★★</strong><span>Mucho sabor</span></div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section class="section about" id="nosotros">
+  <div class="container two-col">
+    <div class="about-card">
+      <img src="imagenes/Gemini_Generated_Image_vf35dcvf35dcvf35.jpg" alt="Señorita atendiendo en El Paso" class="about-img">
+      <span class="floating-badge">Atención con Sabor</span>
+    </div>
+    <div>
+      <p class="eyebrow dark">CONÓCENOS</p>
+      <h2>Bienvenidos a <span>El Paso</span></h2>
+      <p>En El Paso creemos que una buena comida puede convertir un momento normal en un recuerdo especial.</p>
+      
+      <div class="mision-vision-box" style="margin-top: 15px;">
+        <img src="imagenes/WhatsApp Image 2026-10-27 at 6.57.59 PM.jpeg" alt="Misión y Visión de El Paso" style="width: 100%; border-radius: 8px;">
+      </div>
+
+      <a class="text-link" href="#menu" style="display:inline-block; margin-top:15px;">Conoce nuestro menú →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ESPECIALIDADES -->
+<section class="section specialties" id="especialidades">
+  <div class="container">
+    <div class="section-title">
+      <p class="eyebrow dark">LO QUE HACEMOS</p>
+      <h2>Nuestras <span>especialidades</span></h2>
+    </div>
+    <div class="cards">
+      <article class="special-card"><div class="icon">🍔</div><h3>Hamburguesas</h3><p>Jugosas, completas y preparadas al momento.</p><a href="#hamburguesas">Ver opciones →</a></article>
+      <article class="special-card"><div class="icon">🥪</div><h3>Tortas</h3><p>Pan, ingredientes frescos y mucho sabor.</p><a href="#tortas">Ver opciones →</a></article>
+      <article class="special-card"><div class="icon">🍊</div><h3>Jugos</h3><p>Refrescantes y perfectos para acompañar.</p><a href="#jugos">Ver opciones →</a></article>
+      <article class="special-card"><div class="icon">🥤</div><h3>Licuados</h3><p>Cremosos, deliciosos y preparados al momento.</p><a href="#licuados">Ver opciones →</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- MENÚ -->
+<section class="section menu-section" id="menu">
+  <div class="container">
+    <div class="section-title center">
+      <p class="eyebrow">NUESTRO MENÚ</p>
+      <h2>Elige tu <span>favorito</span></h2>
+    </div>
+    <div class="tabs">
+      <button class="tab active" data-filter="all">Todo</button>
+      <button class="tab" data-filter="hamburguesas">Hamburguesas</button>
+      <button class="tab" data-filter="tortas">Tortas</button>
+      <button class="tab" data-filter="jugos">Jugos</button>
+      <button class="tab" data-filter="licuados">Licuados</button>
+    </div>
+    <div class="products">
+      
+      <!-- Hamburguesas -->
+      <article class="product" data-category="hamburguesas" id="hamburguesas">
+        <div class="product-img">
+          <img src="imagenes/WhatsApp Image 2026-10-26 at 5.02.19 PM.jpeg" alt="Hamburguesa con queso y licuado">
+        </div>
+        <div>
+          <small>HAMBURGUESAS</small>
+          <h3>Clásica con Queso</h3>
+          <p>Carne jugosa, queso derretido, lechuga y aderezos de la casa.</p>
+          <strong>$3.50</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="hamburguesas">
+        <div class="product-img">
+          <img src="imagenes/WhatsApp Image 2026-10-26 at 5.02.20 PM (1).jpeg" alt="Combo de Hamburguesas">
+        </div>
+        <div>
+          <small>HAMBURGUESAS</small>
+          <h3>Trío Especial</h3>
+          <p>Variedad de hamburguesas preparadas al instante con ajonjolí.</p>
+          <strong>$5.00</strong>
+        </div>
+      </article>
+
+      <!-- Tortas -->
+      <article class="product" data-category="tortas" id="tortas">
+        <div class="product-img">
+          <img src="imagenes/WhatsApp Image 2026-10-27 at 7.13.51 PM (1).jpeg" alt="Torta artesanal">
+        </div>
+        <div>
+          <small>TORTAS</small>
+          <h3>Torta Rellena</h3>
+          <p>Preparada con ingredientes frescos, aguacate, carne y vegetales.</p>
+          <strong>$3.50</strong>
+        </div>
+      </article>
+
+      <!-- Licuados -->
+      <article class="product" data-category="licuados" id="licuados">
+        <div class="product-img">
+          <img src="imagenes/WhatsApp Image 2026-10-27 at 7.13.50 PM (1).jpeg" alt="Licuado de Fresa">
+        </div>
+        <div>
+          <small>LICUADOS</small>
+          <h3>Licuado de Fresa</h3>
+          <p>Cremoso licuado natural de fresas frescas.</p>
+          <strong>$2.00</strong>
+        </div>
+      </article>
+
+      <article class="product" data-category="licuados">
+        <div class="product-img">
+          <img src="imagenes/WhatsApp Image 2026-10-27 at 7.13.51 PM.jpeg" alt="Licuado de Chocolate y Banano">
+        </div>
+        <div>
+          <small>LICUADOS</small>
+          <h3>Chocolate & Banano</h3>
+          <p>Deliciosa mezcla cremosa y refrescante.</p>
+          <strong>$2.00</strong>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA / LOCAL -->
+<section class="section location-gallery">
+  <div class="container">
+    <div class="section-title center">
+      <p class="eyebrow dark">VISÍTANOS</p>
+      <h2>Conoce nuestras <span>instalaciones</span></h2>
+    </div>
+    <div class="cards">
+      <article class="special-card" style="padding:0; overflow:hidden;">
+        <img src="imagenes/WhatsApp Image 2026-10-26 at 5.14.07 PM.jpeg" alt="Fachada Jugos El Paso" style="width:100%; height:220px; object-fit:cover;">
+        <div style="padding: 15px;">
+          <h3>Fachada Principal</h3>
+          <p>Nos encuentras fácilmente sobre la calle principal.</p>
+        </div>
+      </article>
+      <article class="special-card" style="padding:0; overflow:hidden;">
+        <img src="imagenes/WhatsApp Image 2026-10-27 at 7.04.03 PM.jpg" alt="Local El Paso" style="width:100%; height:220px; object-fit:cover;">
+        <div style="padding: 15px;">
+          <h3>Nuestro Local</h3>
+          <p>Un ambiente cómodo y colorido para disfrutar.</p>
+        </div>
+      </article>
+      <article class="special-card" style="padding:0; overflow:hidden;">
+        <img src="imagenes/Gemini_Generated_Image_vf35dcvf35dcvf35.jpg" alt="Atención al cliente" style="width:100%; height:220px; object-fit:cover;">
+        <div style="padding: 15px;">
+          <h3>Servicio al Cliente</h3>
+          <p>Atención amable y rápida en cada pedido.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="cta">
+  <div class="container cta-content">
+    <div><p class="eyebrow">¿YA DECIDISTE?</p><h2>Tu próximo antojo está en <span>El Paso.</span></h2></div>
+    <a class="btn btn-primary" href="#contacto">Quiero pedir</a>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section contact" id="contacto">
+  <div class="container">
+    <div class="section-title center">
+      <p class="eyebrow dark">ENCUÉNTRANOS</p>
+      <h2>Estamos para <span>atenderte</span></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-box"><div>📍</div><h3>Dirección</h3><p>Tu dirección aquí</p></div>
+      <div class="contact-box"><div>📞</div><h3>Teléfono</h3><p>Tu teléfono aquí</p></div>
+      <div class="contact-box"><div>💬</div><h3>WhatsApp</h3><p>Tu WhatsApp aquí</p></div>
+      <div class="contact-box"><div>♥</div><h3>Redes sociales</h3><div class="socials"><a href="#">f</a><a href="#">◎</a><a href="#">♪</a></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-main">
+    <div><a class="logo" href="#inicio"><span>EL</span> PASO</a><p>Hamburguesas, tortas, jugos y licuados preparados con mucho sabor.</p></div>
+    <div><h3>Enlaces</h3><a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#contacto">Contacto</a></div>
+    <div><h3>Horario</h3><p>Lunes - Domingo</p><p>10:00 AM - 9:00 PM</p></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> El Paso. Todos los derechos reservados.</div>
+</footer>
+
+<button class="top" id="top" aria-label="Volver arriba">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
